@@ -9,25 +9,22 @@ public class DesafioConversao {
 		
 		String salario1, salario2, salario3;
 		System.out.println("Digite o seu primeiro salario: ");
-		salario1 = in.nextLine();
+		salario1 = in.nextLine().replace(",", ".");
 		
 		System.out.println("Digite o seu segundo salario: ");
-		salario2 = in.nextLine();
+		salario2 = in.nextLine().replace(",", ".");
 		
 		System.out.println("Digite o seu terceiro salario: ");
-		salario3 = in.nextLine();
-		
-		salario1 = salario1.replace(",", ".");
-		salario2 = salario2.replace(",", ".");
-		salario3 = salario3.replace(",", ".");
-		
+		salario3 = in.nextLine().replace(",", ".");
 		
 		double media = ( Double.parseDouble(salario1) 
 				+ Double.parseDouble(salario2) 
 				+ Double.parseDouble(salario3) ) / 2;
 		
 		System.out.println("A média do seu salario é: " + media);
-
+		
+		
+		in.close();
 	}
 
 }
