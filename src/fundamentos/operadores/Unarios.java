@@ -10,6 +10,11 @@ public class Unarios {
 		a++; // a = a + 1
 		b--; // b = b - 1
 		
+		--a;
+		++b;
+		
+		
+		
 	}
 
 }
