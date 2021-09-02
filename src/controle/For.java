@@ -20,6 +20,12 @@ public class For {
 		for(int i = 10; i >= 0; i -= 2) {
 			System.out.println(i);
 		}
+		
+		for(int y = 0; x < 10; x++) {
+			for(int j = 0; j < 10; j++) {
+				System.out.printf("[%d %d]", y, j);
+			}
+		}
 	}
 
 }
