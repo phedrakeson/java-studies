@@ -13,8 +13,12 @@ public class For {
 			System.out.println("x = " + x);
 		}
 		
-		for(;;) {
-			System.out.println("laço infinito");
+//		for(;;) {
+//			System.out.println("laço infinito");
+//		}
+		
+		for(int i = 10; i >= 0; i -= 2) {
+			System.out.println(i);
 		}
 	}
 
