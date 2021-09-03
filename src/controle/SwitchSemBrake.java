@@ -6,7 +6,7 @@ public class SwitchSemBrake {
 		
 		String faixa = "preta";
 		
-		switch (faixa.toLowerCase()) 
+		switch ( faixa.toLowerCase() ) 
 		{
 			case "preta":
 				System.out.println("Sei o Bassai-Dai...");
