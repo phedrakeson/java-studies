@@ -21,7 +21,6 @@ public class SwitchSemBrake {
 			default:
 				System.out.println("Não sei de nada...");
 		}
-		)
 	}
 
 }
