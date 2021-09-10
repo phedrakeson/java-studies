@@ -15,7 +15,11 @@ public class ProdutoTeste {
 		p2.desconto = 0.29;
 		p2.nome = "Leite Fresco";
 		
+		double precoFinal1 = p1.precoComDesconto();
+		double precoFinal2 = p2.precoComDesconto(0.1);
+		
 		System.out.println(p1.nome + " " + p2.nome);
+		System.out.println(precoFinal1 + "//" + precoFinal2);
 
 	}
 
