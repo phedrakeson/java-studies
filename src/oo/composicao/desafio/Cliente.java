@@ -18,9 +18,7 @@ public class Cliente {
 	double obterValorTotal() {
 		double valorTotal = 0;
 		for(Compra compra: lista) {
-			for(Item item: compra.lista) {
-				valorTotal += item.produto.preco * item.quantidade;
-			}
+			valorTotal += compra.obterValorTotal();
 		}
 		
 		return valorTotal;

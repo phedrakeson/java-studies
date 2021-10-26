@@ -10,4 +10,14 @@ public class Compra {
 	Compra(List<Item> itens) {
 		this.lista = itens;
 	}
+	
+	double obterValorTotal() {
+		double total = 0;
+		
+		for(Item item: lista) {
+			total += item.produto.preco * item.quantidade;
+		}
+		
+		return total;
+	}
 }
