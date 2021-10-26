@@ -1,12 +1,13 @@
 package oo.composicao.desafio;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Compra {
 	
-	ArrayList<Item> lista = new ArrayList<>();
+	List<Item> lista = new ArrayList<>();
 	
-	Compra(ArrayList<Item> itens) {
+	Compra(List<Item> itens) {
 		this.lista = itens;
 	}
 }

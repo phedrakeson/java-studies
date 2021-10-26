@@ -1,14 +1,15 @@
 package oo.composicao.desafio;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class desafio {
 
 	public static void main(String[] args) {
 		
 		Cliente c1 = new Cliente("Carlitos");
-		ArrayList<Item> lista1 = new ArrayList<>();
-		ArrayList<Item> lista2 = new ArrayList<>();
+		List<Item> lista1 = new ArrayList<>();
+		List<Item> lista2 = new ArrayList<>();
 		
 		lista1.add( new Item(new Produto("Pão", 2.59), 2));
 		lista1.add( new Item(new Produto("Paçoca", 1.50), 10));
