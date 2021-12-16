@@ -1,16 +1,18 @@
 package lambdas;
 
+import java.util.function.BinaryOperator;
+
 public class CalculoTeste {
 
 	public static void main(String[] args) {
-		Calculo calc = (x,y) -> {
+		BinaryOperator<Double> calc = (x,y) -> {
 			return x + y;
 		};
 		
-		calc.executar(1, 2);
+		calc.apply(1.0, 2.0);
 		
 		calc = (x,y) -> x * y;
-
+		
 	}
 
 }
